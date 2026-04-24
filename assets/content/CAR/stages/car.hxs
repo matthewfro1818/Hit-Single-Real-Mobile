@@ -1,26 +1,26 @@
-var mainVid:PsychVideoSprite;
-var missVid:PsychVideoSprite;
+var mainVid:FunkinVideoSprite;
+var missVid:FunkinVideoSprite;
 
 function onLoad() 
 {
-    missVid = new PsychVideoSprite();
+    missVid = new FunkinVideoSprite();
     missVid.addCallback('onFormat',()->{
         missVid.setGraphicSize(0,FlxG.height);
         missVid.updateHitbox();
         missVid.screenCenter();
         missVid.cameras = [game.camHUD];
     });
-    missVid.load('CarVideoMissing.mp4',[PsychVideoSprite.muted]);
+    missVid.load('CarVideoMissing.mp4',[FunkinVideoSprite.muted]);
     add(missVid);
 
-    mainVid = new PsychVideoSprite();
+    mainVid = new FunkinVideoSprite();
     mainVid.addCallback('onFormat',()->{
         mainVid.setGraphicSize(0,FlxG.height);
         mainVid.updateHitbox();
         mainVid.screenCenter();
         mainVid.cameras = [game.camHUD];
     });
-    mainVid.load('CarVideo.mp4',[PsychVideoSprite.muted]);
+    mainVid.load('CarVideo.mp4',[FunkinVideoSprite.muted]);
     add(mainVid);
 }
 
