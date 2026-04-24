@@ -1,0 +1,26 @@
+{
+	"storyName": "yea",
+	"hideFreeplay": false,
+	"weekBackground": "yea",
+	"difficulties": "Normal",
+	"weekBefore": "",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"songs": [
+		[
+			"brr-im-cold",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "yea"
+}

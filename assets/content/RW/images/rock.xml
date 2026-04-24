@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="rock.png" width="529" height="435">
+	<SubTexture name="hit0" x="1" y="1" width="262" height="270" frameX="-28" frameY="-13" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="hit1" x="1" y="276" width="160" height="157" rotated="true" frameX="-78" frameY="-45" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="hit2" x="345" y="278" width="47" height="58" frameX="-136" frameY="-79" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="hit3" x="397" y="278" width="33" height="27" frameX="-166" frameY="-71" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="hit4" x="397" y="310" width="28" height="24" frameX="-190" frameY="-38" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="hit5" x="345" y="393" width="20" height="22" frameX="-235" frameY="-16" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="hit6" x="345" y="420" width="17" height="14" rotated="true" frameX="-263" frameY="-16" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="hit7" x="367" y="420" width="11" height="14" frameX="-291" frameY="-25" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="throw0" x="345" y="341" width="56" height="47" frameX="-128" frameY="-144" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="throw1" x="166" y="278" width="174" height="144" rotated="true" frameX="-97" frameY="-75" frameWidth="320" frameHeight="320"/>
+	<SubTexture name="throw2" x="268" y="1" width="260" height="272" frameX="-39" frameY="-33" frameWidth="320" frameHeight="320"/>
+</TextureAtlas>
